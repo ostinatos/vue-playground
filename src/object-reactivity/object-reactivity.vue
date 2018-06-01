@@ -8,15 +8,18 @@
         </p>
         <nested-component :basket="foods.basket" :foods="foods.list"></nested-component>
         <nested-readonly-component :basket="foods.basket" :foods="foods.list"></nested-readonly-component>
+        <nested-render-component :basket="foods.basket" ></nested-render-component>
     </div>
 </template>
 <script>
 import nestedComponent from './components/nested-component.vue'
 import nestedReadonlyComponent from './components/nested-readonly-component.vue'
+import nestedRenderComponent from './components/nested-render-component'
 export default {
     components:{
         nestedComponent,
-        nestedReadonlyComponent
+        nestedReadonlyComponent,
+        nestedRenderComponent
     },
     data(){
         return {
