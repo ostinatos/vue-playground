@@ -3,7 +3,7 @@
 export default {
     render(h){
         console.debug("nested-render-component render() executed. ");
-        return h('div', "this.basket.apple")
+        return h('div', this.basket.apple)
     },
     props:{
         basket:{
