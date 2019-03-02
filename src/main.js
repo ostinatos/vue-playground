@@ -1,7 +1,8 @@
 import Vue from 'vue'
 // import App from './App.vue'
 
-import App from './object-reactivity/object-reactivity.vue'
+// import App from './object-reactivity/object-reactivity.vue'
+import App from './object-property/main.vue'
 
 Vue.config.productionTip = false
 
