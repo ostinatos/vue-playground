@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import About from './views/About.vue'
 import slidePanelTest from './views/slide-panel-test.vue'
+import debounceThrottleTest from './views/debounce-throttle-test.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -20,6 +21,10 @@ export default new Router({
     {
       path: "/slidepanel",
       component: slidePanelTest
+    },
+    {
+      path: "/dbtt",
+      component: debounceThrottleTest
     }
   ]
 })
